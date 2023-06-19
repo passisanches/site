@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Arya:400,700|Monda:700");
+
+.login-desktop {
+    align-items: flex-start;
+    border: 1px none;
+    display: flex;
+    min-width: 1440px;
+    overflow-x: hidden;
+}
+
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+
+.desktop-1 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display:flex;
+  margin-left: -5px;
+  width: 1440px;
+}
+
+.flex-row {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/647e19dab5bfd8ae1d55aee3/relea-45.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1024px;
+  justify-content: flex-end;
+  min-width: 1440px;
+  padding: 75px 74px;
+  
+}
+
+.login-desktop .flex {
+  align-items: center;
+  display: flex;
+}
+
+.flex-col-1 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  min-height: 840px;
+  width: 1025px;
+}
+
+.rectangle-1 {
+  background-color: var(--alto);
+  height: 87px;
+  margin-top: 83px;
+  width: 1025px;
+}
+
+.rectangle-2 {
+  height: 73px;
+  margin-top: 153px;
+  width: 1025px;
+}
+
+.login-desktop .component {
+  align-items: flex-start;
+  display: flex;
+}
+
+.component-container {
+  gap: 492px;
+  height: 77px;
+  margin-left: 27px;
+  margin-top: 209px;
+  min-width: 890px;
+  
+}
+
+.component-15 {
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 65px;
+  min-width: 199px;
+  padding: 0 54px;
+}
+
+.entrar {
+  color: var(--black);
+  font-family: var(--font-family-arya);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 65px;
+  min-width: 91px;
+  text-align: center;
+}
+
+.component-10 {
+  align-self: flex-end;
+  background-color: var(--alto);
+  cursor: pointer;
+  height: 65px;
+  min-width: 199px;
+  padding: 0 4px;
+}
+
+.criar-cadastro {
+  color: var(--black);
+  font-family: var(--font-family-arya);
+  font-size: var(--font-size-xs);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 55px;
+  text-align: center;
+  width: 190px;
+}
+
+.login {
+  color: var(--white);
+  font-family: var(--font-family-arya);
+  font-size: var(--font-size-1);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 54px;
+  min-height: 158px;
+  text-align: center;
+  text-decoration: underline;
+  width: 651px;
+}
+
+.flex-col {
+  flex-direction: column;
+  gap: 129px;
+  margin-bottom: 37px;
+  min-height: 289px;
+  width: 182px;
+}
+
+.senha {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height:73px;
+  text-align: 0;
+  width: 182px;
+}
+
+.e-mail{
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 3px;
+    min-height: 87px;
+    min-width: 145px;
+    text-align: center;
+
+}
